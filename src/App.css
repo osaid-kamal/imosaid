@@ -1,7 +1,14 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+* {
+  font-family: "Fredoka", sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,115 @@
   to {
     transform: rotate(360deg);
   }
+}
+#skills {
+  height: 800px;
+}
+#projects {
+  height: 800px;
+}
+h4 {
+  font-family: "Fredoka", sans-serif;
+}
+h2 {
+  font-family: "Fredoka", sans-serif;
+}
+p {
+  font-family: "Fredoka", sans-serif;
+}
+#intro {
+  height: 600px;
+}
+#exp {
+  height: 800px;
+}
+#contact {
+  height: 800px;
+}
+
+.card {
+  width: 18rem;
+}
+.card-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+}
+.logo {
+  float: right;
+  align-items: center;
+  justify-content: right;
+  width: 400px;
+  position: relative;
+  top: -200px;
+}
+.resume {
+  text-decoration: none;
+  color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+.sidenav a {
+  padding: 10px 16px 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  font-family: "Lato", sans-serif;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  padding-bottom: 5px;
+  border-bottom: 3px solid yellow;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidenav {
+    padding-top: 15px;
+    display: none;
+  }
+  .sidenav a {
+    font-size: 10px;
+    display: none;
+  }
+}
+
+a:hover {
+  color: blue;
+}
+.card1 {
+  background-image: url("./components/Images/card1.jpg");
 }
