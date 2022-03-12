@@ -22,20 +22,20 @@ const Project = () => {
           <p>A blood group searching and donour app in your city</p>
           <p>This app was made with Java as Backend and XMl fronend</p>
           <a
-             className="lg:mt-5"
+            className="lg:mt-5"
             href="https://github.com/osaid-kamal/Todo-Angular"
           >
             Source Code
           </a>
         </div>
-        <div className="hover:border-t-4 drop-shadow-lg hover:drop-shadow-lg rounded-lg lg:h-56 lg:ml-64">
+        <div className="hover:border-t-4 drop-shadow-lg hover:drop-shadow-lg rounded-lg lg:h-56 lg:ml-64 mb-16">
           <h2>Price Tracker</h2>
           <p>
             A python script which monitor price regular and when it comes below
             given amount it alert the user via email
           </p>
           <a
-             className="lg:mt-5"
+            className="lg:mt-5"
             href="https://github.com/osaid-kamal/Todo-Angular"
           >
             Source Code

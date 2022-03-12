@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div id="skills">
-      <div className="hd underline underline-offset-8 decoration-4 lg:ml-64 decoration-yellow-400 mt-12 ">
+      <div className="hd underline underline-offset-8 decoration-4 lg:ml-64 decoration-yellow-400 mt-28">
         <h4 className="font-bold ml-8 lg:ml-8 text-lg ">TECHS</h4>
       </div>
       <div className="lg:ml-0 lg:mt-8 mt-8 ml-0 grid grid-cols-2">
@@ -163,7 +163,7 @@ const Skills = () => {
             <li>Hibernate</li>
           </div>
         </ul>
-        <ul className="lg:ml-64">
+        <ul className="lg:ml-64 mt-12">
           <h3 className="font-bold">Tools</h3>
           <div className="flex gap-2 lg:mt-2">
             <svg

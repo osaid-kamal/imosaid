@@ -16,7 +16,7 @@ const Home = () => {
       {/* <Button variant="primary" onClick={openNav}>
         Open SideBar
       </Button> */}
-      <div className="text-center ml-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:ml-96 md:ml-79 xl:ml-90 justify-center">
+      <div className="text-center ml-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:ml-96 md:ml-79 xl:ml-90 justify-center">
         <div className="grid grid-span-2 justify-between">
           <h2 className="mt-3 font-bold">Osaid Kamal,</h2>
           <h2 className="font-bold">Full Stack Developer</h2>
