@@ -19,22 +19,12 @@ function App() {
     <div>
       <Router>
         <ToastContainer />
-        <Row>
-          <div className="md:col-span-3 lg:col-span-3">
-            <Menu />
-          </div>
-
-          <div class="lg:col-span-9">
-            <Home />
-            <Project />
-
-            <Skills />
-
-            <Exp />
-
-            <Contact />
-          </div>
-        </Row>
+        <Menu />
+        <Home />
+        <Project />
+        <Skills />
+        <Exp />
+        <Contact />
         <Footer />
       </Router>
     </div>

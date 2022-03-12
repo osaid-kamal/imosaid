@@ -29,7 +29,7 @@ const Contact = () => {
       <div className="underline decoration-yellow-400 underline-offset-8 decoration-4 lg:ml-64 mt-3 hd">
         <h4 className="font-bold ml-8 text-lg">CONTACT</h4>
       </div>
-      <div className="w-full md:w-96 lg:w-3/5 lg:ml-72 md:max-w-full sm:max-w-full mx-auto mt-10">
+      <div className="w-full md:w-96 lg:w-3/5 md:max-w-full sm:max-w-full mx-auto mt-10">
         <div className="p-6 sm:rounded-md ml-2 lg:ml-0">
           <form method="POST" onSubmit={handleForm}>
             <label className="block mb-6">

@@ -1,4 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-scroll";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   const openNav = () => {
     document.querySelector("mySideBar").style.width = "250px";
@@ -32,21 +35,10 @@ const Home = () => {
             alt={"logo"}
           />
         </div>
-        <div className="lg:ml-48 ml-44 mt-5">
-          <svg
-            class="w-6 h-6 dark:text-white"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            ></path>
-          </svg>
+        <div className="lg:ml-32  mr-60 lg:mr-60 ml-44 mt-5">
+          <Link className="cursor-pointer" to="projects">
+            <FontAwesomeIcon className="text-center" icon={faArrowDown} />
+          </Link>
         </div>
       </div>
     </div>
