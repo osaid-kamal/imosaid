@@ -1,2 +1,2 @@
-const base_url = "http://imosaid-contactapi.herokuapp.com/";
+const base_url = "https://imosaid-contactapi.herokuapp.com/";
 export default base_url;
