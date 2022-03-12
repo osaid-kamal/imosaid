@@ -12,6 +12,7 @@ import Exp from "./components/Exp";
 import Project from "./components/Project";
 import { ToastContainer, toast } from "react-toastify";
 import { scrollToTop, scroll } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -25,7 +26,6 @@ function App() {
 
           <div class="lg:col-span-9">
             <Home />
-
             <Project />
 
             <Skills />

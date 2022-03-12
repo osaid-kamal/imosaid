@@ -26,7 +26,7 @@ const Contact = () => {
   };
   return (
     <div id="contact">
-      <div className="underline decoration-yellow-400 underline-offset-8 decoration-4 lg:ml-64 hd">
+      <div className="underline decoration-yellow-400 underline-offset-8 decoration-4 lg:ml-64 mt-3 hd">
         <h4 className="font-bold ml-8 text-lg">CONTACT</h4>
       </div>
       <div className="w-full md:w-96 lg:w-3/5 lg:ml-72 md:max-w-full sm:max-w-full mx-auto mt-10">
