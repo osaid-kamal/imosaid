@@ -30,7 +30,7 @@ const Exp = () => {
           </p>
         </div>
         <div className="lg:ml-64 lg:mt-24 md:mt-10 sm:mt-0 sm:ml-0">
-          <h2>Software Developer Intern</h2>``
+          <h2>Software Developer Intern</h2>
           <p>Bid Ocean Inc</p>
           <p>
             <FontAwesomeIcon
