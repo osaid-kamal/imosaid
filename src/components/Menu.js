@@ -101,7 +101,10 @@ const Menu = () => {
       </div>
       <div className="flex fixed-bottom mb-2 ml-12">
         <span>
-          <a target="_blank" href="https://github.com/osaid-kamal?tab=repositories">
+          <a
+            target="_blank"
+            href="https://github.com/osaidkamal?tab=repositories"
+          >
             <FontAwesomeIcon
               className=""
               icon={faGithub}
@@ -112,7 +115,7 @@ const Menu = () => {
         </span>
 
         <span>
-          <a target="_blank" href="https://www.facebook.com/mohdosaid4/">
+          <a target="_blank" href="https://www.facebook.com/osaidkamal4/">
             <FontAwesomeIcon
               className="ml-8"
               icon={faFacebookF}
@@ -129,7 +132,6 @@ const Menu = () => {
               icon={faLinkedin}
               color="white"
               size="lg"
-              
             />
           </a>
         </span>

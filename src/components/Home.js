@@ -21,8 +21,8 @@ const Home = () => {
           <h2 className="mt-3 font-bold">Osaid Kamal,</h2>
           <h2 className="font-bold">Full Stack Developer</h2>
           <p className="mt-4">
-            Hi , I am Osaid i build scalable web applications using <br />
-            Spring and Python as backend.
+            Hi , I am Osaid Kamal i build web applications using <br />
+            Java and Python as backend.
           </p>
           <Link class="resume" to="./OsaidCV-19" target="_blank" download>
             Download Resume
