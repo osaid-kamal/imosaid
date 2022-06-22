@@ -24,7 +24,7 @@ function App() {
         <Project />
         <Skills />
         <Exp />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </Router>
     </div>
