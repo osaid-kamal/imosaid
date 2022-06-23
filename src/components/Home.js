@@ -28,7 +28,7 @@ const Home = () => {
             Download Resume
           </Link> */}
         </div>
-        <div class="flex float-center w-60 ml-20">
+        <div class="flex float-center w-60 ml-16">
           <img
             className="float-right"
             src={require("./logo.jpg")}

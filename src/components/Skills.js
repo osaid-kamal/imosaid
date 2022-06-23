@@ -2,9 +2,9 @@ const Skills = () => {
   return (
     <div id="skills">
       <div className="hd underline underline-offset-8 decoration-4 lg:ml-64 decoration-yellow-400 mt-28">
-        <h4 className="font-bold ml-8 lg:ml-8 text-lg ">SKILLS</h4>
+        <h4 className="font-bold ml-8 lg:ml-8 text-lg mt-80">SKILLS</h4>
       </div>
-      <div className="lg:ml-0 lg:mt-8 mt-8 ml-0 grid grid-cols-2">
+      <div className="lg:ml-0 lg:mt-16 mt-16 md:mt-16 ml-0 grid grid-cols-2 ">
         <ul className="lg:ml-64">
           <h3 className="font-bold">Languages</h3>
           <div className="flex gap-2 lg:mt-2 mt-2">
@@ -69,7 +69,7 @@ const Skills = () => {
             <li>C</li>
           </div>
         </ul>
-        <ul className="lg:ml-64">
+        <ul className="lg:ml-64 lg:mt-2 md:mt-2">
           <h3 className="font-bold">Frameworks</h3>
           <div className="flex gap-2 lg:mt-2">
             <svg

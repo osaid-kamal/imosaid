@@ -6,7 +6,7 @@ const Exp = () => {
       <div className="underline underline-offset-8 decoration-4 lg:ml-64 decoration-yellow-400 hd ">
         <h4 className="font-bold ml-8 lg:mt-10 lg:ml-8 text-lg">EXPERIENCE</h4>
       </div>
-      <div className="grid gap-5 sm:gap-4 lg:gap-5 grid-cols-1 md:grid-cols-2 ml-8 mt-8 sm:grid-cols-1 lg:grid-cols-2">
+      <div className="grid gap-5 sm:gap-4 lg:gap-5 grid-cols-1 md:grid-cols-2 ml-8 mt-16 lg:mt-8 md:mt-8 sm:mt-8 sm:grid-cols-1 lg:grid-cols-2">
         <div className="lg:ml-64 lg:mt-10 md:mt-10 sm:mt-10 sm:ml-0">
           <h2>Associate Sofware Engineer</h2>
           <p>Accenture Solutions</p>
