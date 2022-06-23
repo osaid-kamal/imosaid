@@ -10,7 +10,7 @@ import {
 import {
   faCoffee,
   faHome,
-  faContactCard,
+  faSchool,
   faChalkboard,
   faWindowMaximize,
   faList,
@@ -34,7 +34,21 @@ const Menu = () => {
             Home
           </Link>
         </li>
-
+        <li className="nav-item">
+          <Link
+            className="cursor-pointer nav-link"
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={-40}
+            duration={50}
+            // onSetActive={this.handleSetActive}
+          >
+            <FontAwesomeIcon className="me-3" icon={faSchool} />
+            Education
+          </Link>
+        </li>
         <li className="nav-item">
           <Link
             className="cursor-pointer nav-link"
@@ -80,22 +94,6 @@ const Menu = () => {
           >
             <FontAwesomeIcon className="me-3" icon={faList} />
             Experience
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link
-            className="cursor-pointer nav-link"
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-40}
-            duration={50}
-            // onSetActive={this.handleSetActive}
-          >
-            <FontAwesomeIcon className="me-3" icon={faContactCard} />
-            Contact
           </Link>
         </li>
       </div>

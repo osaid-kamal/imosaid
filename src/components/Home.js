@@ -24,9 +24,9 @@ const Home = () => {
             Hi , I am Osaid Kamal i build web applications using <br />
             Java and Python as backend.
           </p>
-          <Link class="resume" to="./OsaidCV-19" target="_blank" download>
+          {/* <Link class="resume" to="./OsaidCV-19" target="_blank" download>
             Download Resume
-          </Link>
+          </Link> */}
         </div>
         <div class="flex float-center w-60 ml-20">
           <img
@@ -35,7 +35,7 @@ const Home = () => {
             alt={"logo"}
           />
         </div>
-        <div className="lg:ml-32  mr-60 lg:mr-60 ml-44 mt-5">
+        <div className="lg:ml-28  mr-60 lg:mr-60 ml-44 mt-5">
           <Link className="cursor-pointer" to="projects">
             <FontAwesomeIcon className="text-center" icon={faArrowDown} />
           </Link>

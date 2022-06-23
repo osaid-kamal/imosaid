@@ -13,6 +13,7 @@ import Project from "./components/Project";
 import { ToastContainer, toast } from "react-toastify";
 import { scrollToTop, scroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <ToastContainer />
         <Menu />
         <Home />
+        <Education />
         <Project />
         <Skills />
         <Exp />
