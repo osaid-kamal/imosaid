@@ -1,6 +1,4 @@
-Deployment Link
 
-http://imosaid.herokuapp.com/
 
 
 # Getting Started with Create React App
