@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapLocation, faCalendar } from "@fortawesome/free-solid-svg-icons";
 const Exp = () => {
   return (
-    <div id="exp" className="lg:mt-10">
+    <div id="exp" className="lg:mt-24">
       <div className="underline underline-offset-8 decoration-4 lg:ml-64 decoration-yellow-400 hd ">
         <h4 className="font-bold ml-8 lg:mt-10 lg:ml-8 text-lg">EXPERIENCE</h4>
       </div>
@@ -10,6 +10,7 @@ const Exp = () => {
         <div className="lg:ml-64 lg:mt-10 md:mt-10 sm:mt-10 sm:ml-0">
           <h2>Associate Sofware Engineer</h2>
           <p>Accenture Solutions</p>
+          <p>DevOps Engineer </p>
           <p>
             <FontAwesomeIcon className="text-center mr-2" icon={faCalendar} />
             Dec 2021 - Present
@@ -19,13 +20,14 @@ const Exp = () => {
               className="text-center mr-2"
               icon={faMapLocation}
             />
-            Kolkata, West Bengal
+            Bengaluru, Karnataka
           </p>
         </div>
 
         <div className="lg:ml-32 lg:mt-10 md:mt-10 sm:mt-0 sm:ml-0">
           <h2>Software Developer Intern</h2>
           <p>Bid Ocean Inc</p>
+          <p>Python Developer</p>
           <p>
             <FontAwesomeIcon className="text-center mr-2" icon={faCalendar} />
             Jan 2021 - Jul 2021

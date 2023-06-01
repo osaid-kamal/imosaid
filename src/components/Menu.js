@@ -45,11 +45,11 @@ const Menu = () => {
             duration={50}
             // onSetActive={this.handleSetActive}
           >
-            <FontAwesomeIcon className="me-3" icon={faSchool} />
+            <FontAwesomeIcon className="me-3 fa-sm" icon={faSchool} />
             Education
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link
             className="cursor-pointer nav-link"
             activeClass="active"
@@ -62,8 +62,8 @@ const Menu = () => {
           >
             <FontAwesomeIcon className="me-3" icon={faChalkboard} />
             Projects
-          </Link>
-        </li>
+          </Link> */}
+        {/* </li> */}
 
         <li className="nav-item">
           <Link

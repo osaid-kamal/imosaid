@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 const Project = () => {
   return (
-    <div id="projects">
+    <div id="project">
       <div className="font-bold text-lg lg:mt-18 mt-40 md:ml- lg:ml-64 underline underline-offset-8 decoration-4 decoration-yellow-400">
         <h4 className="font-bold ml-8 lg:ml-8 text-lg ">PROJECTS</h4>
       </div>

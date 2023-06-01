@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/imosaid/static/css/main.f00f6b65.css",
+    "main.js": "/imosaid/static/js/main.17107183.js",
+    "static/js/787.08b945b9.chunk.js": "/imosaid/static/js/787.08b945b9.chunk.js",
+    "static/media/card1.jpg": "/imosaid/static/media/card1.90a0e03fdd8798166987.jpg",
+    "static/media/logo.jpg": "/imosaid/static/media/logo.889e34d29ca10b4d139b.jpg",
+    "static/media/logo.svg": "/imosaid/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/imosaid/index.html",
+    "main.f00f6b65.css.map": "/imosaid/static/css/main.f00f6b65.css.map",
+    "main.17107183.js.map": "/imosaid/static/js/main.17107183.js.map",
+    "787.08b945b9.chunk.js.map": "/imosaid/static/js/787.08b945b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f00f6b65.css",
+    "static/js/main.17107183.js"
+  ]
+}

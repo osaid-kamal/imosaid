@@ -163,8 +163,9 @@ const Skills = () => {
             <li>Hibernate</li>
           </div>
         </ul>
+
         <ul className="lg:ml-64 mt-12">
-          <h3 className="font-bold">Tools</h3>
+          <h3 className="font-bold">DevOps Tools</h3>
           <div className="flex gap-2 lg:mt-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +179,7 @@ const Skills = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <li>Vs Code</li>
+            <li>AWS</li>
           </div>
           <div className="flex gap-2 lg:mt-2">
             <svg
@@ -193,7 +194,7 @@ const Skills = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <li>Eclipse</li>
+            <li>Terraform</li>
           </div>
           <div className="flex gap-2 lg:mt-2">
             <svg
@@ -208,7 +209,7 @@ const Skills = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <li>IntelliJ</li>
+            <li>Uraban Code Deploy</li>
           </div>
           <div className="flex gap-2 lg:mt-2">
             <svg
@@ -223,7 +224,52 @@ const Skills = () => {
                 clip-rule="evenodd"
               />
             </svg>
-            <li>Postman</li>
+            <li>Docker</li>
+          </div>
+          <div className="flex gap-2 lg:mt-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <li>Kubernetes</li>
+          </div>
+          <div className="flex gap-2 lg:mt-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <li>Jenkins</li>
+          </div>
+          <div className="flex gap-2 lg:mt-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <li>Cloud Foundary</li>
           </div>
         </ul>
       </div>
