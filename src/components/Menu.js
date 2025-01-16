@@ -30,7 +30,7 @@ const Menu = () => {
             duration={50}
             isDynamic={true}
           >
-            <FontAwesomeIcon className="me-3" icon={faHome} />
+            <FontAwesomeIcon className="me-3 fa-sm" icon={faHome} />
             Home
           </Link>
         </li>
@@ -92,7 +92,7 @@ const Menu = () => {
             duration={50}
             // onSetActive={this.handleSetActive}
           >
-            <FontAwesomeIcon className="me-3" icon={faList} />
+            <FontAwesomeIcon className="me-3 fa-sm" icon={faList} />
             Experience
           </Link>
         </li>
